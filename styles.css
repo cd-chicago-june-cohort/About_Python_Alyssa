@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+#wrapper{
+    width: 970px;
+    background: #174F78;
+    color:#FFFFFF;
+    margin: 10px;
+}
+
+/* yellow text */
+a, .aphorism{
+    color: #FBD304;
+}
+
+/* header*/
+#header{
+    height: 110px;
+    position: relative;
+}
+
+#header img{
+    height: 108px;
+}
+    /*styling the search tools*/
+#search_tools{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+#text_selector {
+    width: 290px;
+    text-align: right;
+    font-size: 12px;
+}
+
+#search{
+    width: 350px;
+    height: 35px;
+    background: #444444;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #1F1F1F;
+    text-align: center;
+    padding: 13px 2px 18px 2px;
+}
+
+#search_box, #search_button{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin: auto 0px;
+    font-weight: lighter;
+}
+
+#search_box{
+    background: #FFFFFF;
+    color: #BDBDBD;
+    width: 180px;
+    border: 3px inset white;
+}
+
+#search_button{
+    background: #174F78;
+    color: #FFFFFF;
+    border: 3px outset white;
+    border-radius: 5px;
+    padding: 0 3px;
+    box-shadow: 1px 1px 1px #1F1F1F;
+    width: 35px;
+}
+/* end header & search tools */
+
+/* navigation bar*/
+#navigation{
+    background: #377BAF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #1F1F1F;
+    width: 810px;
+    height: 45px;
+    line-height: 45px;
+    margin: auto;
+}
+
+#navigation ul{
+    text-align: center;
+    margin: auto;
+}
+
+#navigation li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+/*end navigation bar*/
+
+/* center section, blue background*/
+#main_content{
+    text-align:center;
+    width: 810px;
+    margin: auto;
+}
+
+#menu, #zen{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin: 15px;
+}
+    /* menu on left of center section*/
+#menu{
+    width: 200px;
+    vertical-align:top;
+    padding-top: 10px;
+}
+
+#menu ul{
+    list-style-position: inside;
+}
+
+#menu li{
+    text-decoration: underline;
+    margin: 10px 0;
+    list-style-type: disc;
+}
+    /*info on right of center section*/
+#zen{
+    width: 540px;
+}
+
+#zen p{
+    font-size: 14px;
+}
+
+#zen_quote{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.aphorism{
+    font-style: italic;
+    padding: 8px 0;
+}
+/*end center section*/
+
+/*secondary content white background*/
+#secondary_content{
+    background:white;
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+.detail_info{
+    display: inline-block;
+    border-top: 3px solid #68A5D7;
+    width: 400px;
+    margin: 0px 15px;
+    vertical-align: top;
+}
+
+.detail_info h1{
+    font-size: 17px;
+    padding: 3px;
+    font-weight: normal;
+}
+
+.detail_info p, .info_list li{
+    font-size: 12px;
+}
+
+.info_list{
+    width: 300px;
+    margin: auto;
+}
+
+.info_list li{
+    list-style-type: square;
+}
+
+.info_list a{
+    color: #68A5D7;
+}
+/*end secondary content*/
+
+/*footer*/
+#footer{
+    background: #174F78; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#174F78, #1F71AE);/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#174F78, #1F71AE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#174F78, #1F71AE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#174F78, #1F71AE); /* Standard syntax */
+    text-align: center;
+}
+
+#footer li{
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 40px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #68A5D7;
+}
+
+#copyright{
+    font-size: 10px;
+    padding: 10px 0 5px 0;
+    color: #68A5D7;
+}
+
